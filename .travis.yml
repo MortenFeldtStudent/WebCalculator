@@ -8,3 +8,7 @@ cache:
 script:
   - mvn test
   - mvn verify -Ptest
+
+after_success:
+
+  - mvn tomcat7:deploy -Pdeployremote

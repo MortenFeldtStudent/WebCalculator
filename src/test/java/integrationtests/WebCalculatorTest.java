@@ -17,7 +17,7 @@ import utils.HttpClient;
 
 public class WebCalculatorTest {
     
-    HttpClient client = new HttpClient("http://localhost:7778/WebCalculator/calculator");
+    HttpClient client = new HttpClient("http://localhost:7777/WebCalculator/calculator");
     
     @Test
     public void addTest() throws IOException {
